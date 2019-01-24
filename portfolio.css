@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url("https://www.lalibrenetwork.be/web/app/uploads/lalibre_thumb/Data-Science-vs.-Big-Data-vs-2-36a7fbk60fccop2h7f8mps.jpg");
+  background-size: 80%;
+  opacity: 0.8;
+}
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+  max-width: 1000px;
+  margin: auto;
+  font-style: italic ;
+  /* background-image: url("https://www.lalibrenetwork.be/web/app/uploads/lalibre_thumb/Data-Science-vs.-Big-Data-vs-2-36a7fbk60fccop2h7f8mps.jpg");
+  background-size: 50%; */
+}
+
+/* Center website */
+.navbar-expand-lg{
+  color: blueviolet 
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column  */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  /* content: ""; */
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  
+    background-color: lightgrey;;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+.signal{
+    background-image:url("elec.jpeg");
+
+}
+
+h4,h5{
+    color: black;
+}
+h3{
+    color: blueviolet
+}
+a{
+  color: blueviolet}
+
+ul{
+    list-style-type: none;
+}
+span{
+  color:white;
+}
+
+footer{
+ 
+  color: blueviolet;
+  font-style: bold;
+  margin-top: 2%;
+  background-image: url("https://www.lalibrenetwork.be/web/app/uploads/lalibre_thumb/Data-Science-vs.-Big-Data-vs-2-36a7fbk60fccop2h7f8mps.jpg");
+  background-size: 30%;
+  opacity: 0.8;
+}
+
+/* .contact{
+  display: flex;
+  
+  align-items: center; 
+  
+} */
+
+.prog,.elec{
+  display: flex;
+  justify-content: space-around
+}
+.compétencesmanag{
+  margin-top: 4%;
+  margin-bottom: 2%
+}
+.prog,.elec{
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 375px)  {
+  .prog,.elec  {
+  flex-wrap: wrap
+  } }
+
+
+  
